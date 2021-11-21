@@ -1,0 +1,11 @@
+Login Sayfası
+- KullaniciYoneticisine ihtiyaç var OturumAcma ve KayitOlma işlemleri için.
+- Login Sayfası açılırken ve kapanırken jsonserialize ve jsondeserialize işlemleri yapmam gerekiyor. Verileri kaybetmemek için.
+- KayitOl formuna kullaniciYoneticisini göndermeniz gerekiyor.
+KayitOl
+- KullaniciYoneticisini almam gerekiyor.
+- Parolalar birbirleriyle eşleşiyorsa kayitOlmak için uygun.
+EKSTRA kullanicilar içerisinde aynı kullanıcı adına sahip biri varsa ordada uyarı verebilir o kayıt gerçekleşmesin.
+
+Ödev projeyi baştan yeniden yazınız. Login-Register kısımlarını bitiriniz.
+İsteyenlerde EKSTRA kısmını yapsın.
