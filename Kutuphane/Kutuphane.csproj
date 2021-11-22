@@ -49,11 +49,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BagisYapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BagisYapForm.Designer.cs">
+      <DependentUpon>BagisYapForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HesabimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HesabimForm.Designer.cs">
+      <DependentUpon>HesabimForm.cs</DependentUpon>
     </Compile>
     <Compile Include="KayitOlForm.cs">
       <SubType>Form</SubType>
@@ -61,13 +73,28 @@
     <Compile Include="KayitOlForm.Designer.cs">
       <DependentUpon>KayitOlForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="KutuphaneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KutuphaneForm.Designer.cs">
+      <DependentUpon>KutuphaneForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BagisYapForm.resx">
+      <DependentUpon>BagisYapForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HesabimForm.resx">
+      <DependentUpon>HesabimForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KayitOlForm.resx">
       <DependentUpon>KayitOlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KutuphaneForm.resx">
+      <DependentUpon>KutuphaneForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -97,6 +125,9 @@
       <Project>{38f74df5-ab5a-4619-98ee-9d9e6620a3be}</Project>
       <Name>Kutuphane.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

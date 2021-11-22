@@ -178,6 +178,7 @@ namespace Kutuphane
             this.Controls.Add(this.txtAdSoyad);
             this.Controls.Add(this.label1);
             this.Name = "KayitOlForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Kayıt Ol";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -39,7 +39,8 @@ namespace Kutuphane
                 MessageBox.Show("Kullanıcı adı yada şifre hatalı!");
             else
             {
-                MessageBox.Show("Başarılı Giriş");
+                KutuphaneForm kutuphaneForm = new KutuphaneForm(girisYapan);
+                kutuphaneForm.ShowDialog();
             }
         }
 
